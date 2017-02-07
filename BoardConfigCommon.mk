@@ -230,6 +230,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 CONFIG_ACS := true
 CONFIG_IEEE80211AC := true
+CONFIG_IEEE80211AX := true
 
 # Inherit from the proprietary version
 -include vendor/oneplus/sm8250-common/BoardConfigVendor.mk
