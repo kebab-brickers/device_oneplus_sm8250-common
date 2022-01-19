@@ -1,5 +1,6 @@
 # Data File
-type aosp_data_file, file_type, data_file_type,  core_data_file_type;
+type aosp_data_file, file_type, data_file_type, core_data_file_type;
+type per_boot_file, file_type, data_file_type, core_data_file_type;
 
 # files
 type oem_file, file_type;
@@ -16,6 +17,7 @@ type proc_watermark_boost_factor, fs_type, proc_type;
 
 # sysfs
 type sysfs_aod, sysfs_type, fs_type;
+type sysfs_chargelevel, sysfs_type, fs_type;
 type sysfs_color, fs_type, sysfs_type;
 type sysfs_dash_charger, fs_type, proc_type, sysfs_type;
 type sysfs_dbg, fs_type, sysfs_type;
@@ -29,6 +31,9 @@ type sysfs_tri_state_key, sysfs_type, fs_type;
 type sysfs_vl53l1, fs_type, sysfs_type;
 type vendor_sysfs_video_call_on, fs_type, sysfs_type;
 type sysfs_oem, sysfs_type, fs_type;
+type sysfs_wlc, sysfs_type, fs_type;
+
+
 
 # Fingerprint
 type vendor_persist_fingerprint_file, file_type;

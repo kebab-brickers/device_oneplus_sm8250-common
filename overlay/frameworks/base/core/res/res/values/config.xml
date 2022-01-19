@@ -1352,4 +1352,8 @@
           manually by the user. Off by default, since the expected haptic feedback may not be
           available on some devices. -->
      <bool name="config_enableHapticTextHandle">true</bool>
+
+    <!-- Adaptive Charging -->
+    <string name="config_adaptiveChargingSuspendValue">1</string>
+    <string name="config_adaptiveChargingResumeValue">0</string>
 </resources>
