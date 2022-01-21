@@ -39,10 +39,12 @@ debug.stagefright.ccodec=1
 dalvik.vm.dex2oat64.enabled=true
 
 # Dalvik
-pm.dexopt.install=speed-profile
-pm.dexopt.bg-dexopt=speed-profile
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=quicken
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=everything
+
+
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
